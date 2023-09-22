@@ -1,15 +1,18 @@
 import React from 'react';
 import Clients from "../Components/Home/Clients.jsx";
 import LifeCycle from '../Components/Home/LifeCycle.jsx';
+import Arge   from   '../Components/Home/Arge.jsx';
+import Support   from   '../Components/Home/Support.jsx';
+import Team from '../Components/Home/Team.jsx';
 
 const Home = () => {
   return (
    <> 
-      <div className="flex pt-40">
+      <div className="flex pt-40 pb-8">
     <div className="flex-1 grid md:grid-cols-2 grid-cols-1 gap-20 items-center">
      <div className="flex flex-col items-left ml-[9rem] justify-center h-3/4">
-      <span className='text-roboto-black bg-white' style={{fontSize:'35px'}}>
-        Meetup with Startup Creator<br />
+      <span className='text-[35px] font-[300]'>
+        Meetup with Startup Creator,<br />
         App Factory
          </span>
       <span className="text-gray-600">
@@ -24,14 +27,14 @@ const Home = () => {
      </div>
      </div>
 
-     <div className='flex pt-40 '>
-     <div className="flex-1 grid grid-cols-2 gap-20 items-center">
+     <div className='flex py-40 '>
+     <div className="flex-1 grid md:grid-cols-2 grid-cols-1 gap-20 items-center">
      <div className="flex flex-col items-left ml-[9rem] justify-center h-3/4">
-      <span className='text-roboto-black bg-white' style={{fontSize:'35px'}}>
+      <span className='text-[35px] font-[300]'>
       Developing web and mobile applications with the latest technologies considering
       user experience
          </span>
-      <span className="text-gray-600">
+      <span className="text-[#757575] text-[15px]">
       Continously producing new ideas and new technologies with our team providing analysis, desing, software and consultancy services.
           </span>
           </div>
@@ -40,6 +43,9 @@ const Home = () => {
      </div>
      <Clients />
     <LifeCycle/>
+    <Arge/>
+    <Support/>
+    <Team/>
 
 
      
