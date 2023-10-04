@@ -4,13 +4,14 @@ import { Link } from 'react-router-dom';
 const Navbar = (props) => {
   return (
     <Fragment>
-      <header className="fixed top-0 left-0 w-full h-[4.5rem] bg-white flex justify-between items-center px-10 transition-shadow duration-300 ease-in-out shadow-md header">
+      <header className="fixed top-0 left-0 w-full h-[4.5rem] bg-white flex justify-between items-center px-10
+       transition-shadow duration-300 ease-in-out shadow-md header">
         <Link to="/">
           <img src="/ea_logo.inline.svg" alt="Logo" />
         </Link>
         <nav className='mr-14'>
           <ul className="flex items-center  ml-2 mr-2 h-[4.5rem]" >
-            <li  className='pt-[10px] pb-[35px] px-[10] '>
+            <li className='pt-[10px] pb-[35px] px-[10] '>
               <Link to="/" className="pt-7 lg:pb-[30px] px-[10px] lg:text-xs ml-2 text-gray-400 leading-relaxed hover:text-black ">HOME</Link>
             </li>
             <li className='py-4 hover: border-t-4'>
@@ -41,3 +42,5 @@ const Navbar = (props) => {
 };
 
 export default Navbar;
+
+
