@@ -61,28 +61,28 @@ const Team = () => {
                                 <div className='pl-[20px] pt-[20px]' >
                                     <p className='text-sm font-normal tracking-[1.5px]'>BURAK HASICI</p>
                                     <p className='text-[#3D3D3D] italic text-[12px] font-normal tracking-[0.5px]'>Software Developer</p>
-                                    </div>
+                                </div>
                             </div>
                             <div className='flex' >
                                 <img className='rounded-full h-[100px] grayscale' width={100} src={yasin} alt="" />
                                 <div className='pl-[20px] pt-[20px]' >
                                     <p className='text-sm font-normal tracking-[1.5px]'>YASIN REISOGLU</p>
                                     <p className='text-[#3D3D3D] italic text-[12px] font-normal tracking-[0.5px]'>Software Developer</p>
-                                    </div>
+                                </div>
                             </div>
                             <div className='flex'>
                                 <img className='rounded-full grayscale' width={100} src={osman} alt="" />
                                 <div className='pl-[20px] pt-[20px]' >
                                     <p className='text-sm font-normal tracking-[1.5px]'>OSMAN OSMANOGLU</p>
                                     <p className='text-[#3D3D3D] italic text-[12px] font-normal tracking-[0.5px]'>Software Developer</p>
-                                   </div>
+                                </div>
                             </div>
                             <div className='flex'>
                                 <img className='rounded-full grayscale' width={100} src={abdulaziz} alt="" />
                                 <div className='pl-[20px] pt-[20px]' >
                                     <p className='text-sm font-normal tracking-[1.5px]'>ABDULAZIZ ALSIKH</p>
                                     <p className='text-[#3D3D3D] italic text-[12px] font-normal tracking-[0.5px]'>Software Developer</p>
-                                  </div>
+                                </div>
                             </div>
                         </div>
                     </div>
