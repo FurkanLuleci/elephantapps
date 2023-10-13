@@ -1,6 +1,6 @@
 import React from 'react'
 import { clientPngs } from '../../Data/Clientsimg.js'
-import  { useState } from 'react';
+import { useState } from 'react';
 
 const ClientsListItem = ({ image }) => {
   const [isHovered, setIsHovered] = useState(false);
