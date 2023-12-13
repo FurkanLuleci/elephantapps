@@ -9,25 +9,25 @@ const Navbar = (props) => {
         <Link to="/">
           <img src="/ea_logo.inline.svg" alt="Logo" />
         </Link>
-        <nav className='mr-14'>
-          <ul className="flex items-center  ml-2 mr-2 h-[4.5rem]" >
-            <li className='pt-[10px] pb-[35px] px-[10] '>
-              <Link to="/" className="pt-7 lg:pb-[30px] px-[10px] lg:text-xs ml-2 text-gray-400 leading-relaxed hover:text-black ">HOME</Link>
+        <nav className=''>
+          <ul className="" >
+            <li className=''>
+              <Link to="/" className="">HOME</Link>
             </li>
-            <li className='py-4 hover: border-t-4'>
-              <Link to="/about-us" className="pt-7 lg:pb-[30px] px-[10px] lg:text-xs ml-2 text-gray-400 leading-relaxed hover:text-black ">ABOUT US</Link>
+            <li className=''>
+              <Link to="/about-us" className="">ABOUT US</Link>
             </li>
-            <li className='py-4 hover: border-t-4'>
-              <Link to="/services" className="pt-7 lg:pb-[30px] px-[10px] lg:text-xs ml-2 text-gray-400 leading-relaxed hover:text-black  ">SERVICES</Link>
+            <li className=''>
+              <Link to="/services" className="">SERVICES</Link>
             </li>
-            <li className='py-4 hover: border-t-4'>
-              <Link to="/projects" className="pt-7 lg:pb-[30px] px-[10px] lg:text-xs ml-2 text-gray-400 leading-relaxed hover:text-black ">PROJECTS</Link>
+            <li className=''>
+              <Link to="/projects" className="">PROJECTS</Link>
             </li>
-            <li className='py-4 hover: border-t-4'>
-              <Link to="/careers" className="pt-7 lg:pb-[30px] px-[10px] lg:text-xs ml-2 text-gray-400 leading-relaxed hover:text-black  ">CAREERS</Link>
+            <li className=''>
+              <Link to="/careers" className="">CAREERS</Link>
             </li>
-            <li className='py-4 hover: border-t-4'>
-              <Link to="/contact-us" className="pt-7 lg:pb-[30px] px-[10px] lg:text-xs ml-2 text-gray-400 leading-relaxed hover:text-black ">CONTACT US</Link>
+            <li className=''>
+              <Link to="/contact-us" className="">CONTACT US</Link>
             </li>
             <button className="flex items-center">
               <span className="text-xs mr-2">TR</span>
